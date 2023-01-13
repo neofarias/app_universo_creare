@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "686721094094",
+    "project_id": "appuniversocreare",
+    "storage_bucket": "appuniversocreare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686721094094:android:dbf951bbe2b433673d5b9f",
+        "android_client_info": {
+          "package_name": "com.example.app_universo_creare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686721094094-hjohmiafg0s6fea5jrpks5u2an2edf1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4o1f78Q4aU9ym1DL8tu_lB67k1SgUAck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "686721094094-hjohmiafg0s6fea5jrpks5u2an2edf1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
