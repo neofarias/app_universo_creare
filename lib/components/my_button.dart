@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class MyButton extends StatelessWidget {
 
   final Function()? onTap;
+  final String textBtn;
 
-  const MyButton({Key? key, required this.onTap}) : super(key: key);
+  const MyButton({Key? key, required this.onTap, required this.textBtn}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,9 +18,8 @@ class MyButton extends StatelessWidget {
             color: Color.fromRGBO(54, 0, 80, 0.7),
             borderRadius: BorderRadius.circular(25.0)),
         child: Center(
-          child: Text(
-            'Entrar',
-            style: TextStyle(
+          child: Text(textBtn,
+            style: const TextStyle(
                 fontFamily: 'Lato',
                 color: Colors.white,
                 fontSize: 16.0,

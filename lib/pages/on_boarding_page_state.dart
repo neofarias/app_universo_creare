@@ -15,14 +15,26 @@ class OnBoardingPageState extends State<OnBoardingPage> {
         pages: [
           PageViewModel(
             title: 'Bem-Vindo!',
-            body: 'A ferramenta que auxilia o diagnóstico, finalmente chegou!',
+            body: 'A ferramenta que auxilia o diagnóstico, finalmente chegou.',
             image: buildImage('assets/caa.png'),
             decoration: getPageDecoration(),
           ),
           PageViewModel(
-            title: '',
+            title: 'Agilidade e praticidade',
+            body: 'A ferramenta que auxilia o diagnóstico, finalmente chegou.',
+            image: buildImage('assets/welcome_02.png'),
+            decoration: getPageDecoration(),
+          ),
+          PageViewModel(
+            title: 'Acesso na palma da mão',
             body: 'Com seus dados de acesso você pode cadastrar, consultar ou editar dados do paciente.',
-            image: buildImage('assets/caa.png'),
+            image: buildImage('assets/welcome_01.png'),
+            decoration: getPageDecoration(),
+          ),
+          PageViewModel(
+            title: 'Vamos lá',
+            body: 'Iniciar o uso do aplicativo.',
+            image: buildImage('assets/welcome_03.png'),
             decoration: getPageDecoration(),
           ),
         ],

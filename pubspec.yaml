@@ -31,6 +31,7 @@ dependencies:
     sdk: flutter
 
   introduction_screen: ^3.1.2
+  sizer: ^2.0.15
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -68,6 +69,10 @@ flutter:
     - assets/caa.png
     - assets/google.png
     - assets/apple.png
+    - assets/welcome_01.png
+    - assets/welcome_02.png
+    - assets/welcome_03.png
+    - assets/facebook.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
