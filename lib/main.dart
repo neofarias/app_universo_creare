@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Sizer(builder: (context, orientation, deviceType) {
       return MaterialApp(
-        theme: ThemeData(primaryColor: Color.fromRGBO(54, 0, 80, 0.7)),
+        theme: ThemeData(primaryColor: Color.fromRGBO(54, 0, 80, 1)),
         debugShowCheckedModeBanner: false,
         home: SplashScreen(),
         routes: routes,
